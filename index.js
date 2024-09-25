@@ -17,6 +17,9 @@ app.get('/login',(req,res)=>{
 app.get('/chai',(req,res)=>{
     res.send('<h3>Chai is ready</h3>');
 })
+app.get('/github',(req,res)=>{
+    res.send('<a href="https://github.com/yashgosavi-02">go to github</a>');
+});
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`);           
 });
